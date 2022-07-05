@@ -1,3 +1,4 @@
+@FLTAPS-1733
 Feature: User should experience the 'Enter' key of the keyboard is working correctly on the login page.
   @FLTAPS-1785
   Scenario: 'Enter' key should working correctly on login page.

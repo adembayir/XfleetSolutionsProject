@@ -1,3 +1,4 @@
+@FLTAPS-1733
 Feature: User should see the password in bullet signs by default
   @FLTAPS-1784
   Scenario: As a user, I see the password in bullet signs by default

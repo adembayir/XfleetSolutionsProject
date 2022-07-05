@@ -1,3 +1,4 @@
+@FLTAPS-1733
 Feature: All users should see their own usernames in the profile menu, after successful login
 
   @FLTAPS-1786

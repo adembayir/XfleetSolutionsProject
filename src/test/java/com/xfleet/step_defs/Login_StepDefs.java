@@ -43,7 +43,7 @@ public class Login_StepDefs {
 
     @Then("I should land on the Quick Launchpad page.")
     public void i_should_land_on_the_quick_launchpad_page() {
-        wait.until(ExpectedConditions.visibilityOf(quickLaunchpadPage.quickLaunchpadHeader));
+        //wait.until(ExpectedConditions.visibilityOf(quickLaunchpadPage.quickLaunchpadHeader));
 
         String expectedHeader = "Quick Launchpad";
         String actualHeader = quickLaunchpadPage.quickLaunchpadHeader.getText();
@@ -53,7 +53,7 @@ public class Login_StepDefs {
 
     @Then("I should land on the Dashboard page.")
     public void iShouldLandOnTheDashboardPage() {
-        wait.until(ExpectedConditions.visibilityOf(dashboardPage.dashboardHeader));
+        //wait.until(ExpectedConditions.visibilityOf(dashboardPage.dashboardHeader));
         String expectedHeader = "Dashboard";
         String actualHeader = dashboardPage.dashboardHeader.getText();
 

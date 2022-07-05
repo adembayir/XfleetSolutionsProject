@@ -1,6 +1,7 @@
+@FLTAPS-1733
 Feature: All users should see their own usernames in the profile menu, after successful login
 
-  @wip
+  @FLTAPS-1786
   Scenario Outline: As a user, i should see my username in the profile menu, after successful login
     Given I am on the login page
     When I enter valid username "<username>"
