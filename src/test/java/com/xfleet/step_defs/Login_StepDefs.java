@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Login_StepDefs {
-    BasePage basePage = new BasePage();
+    //BasePage basePage = new BasePage();
     LoginPage loginPage = new LoginPage();
     QuickLaunchpadPage quickLaunchpadPage = new QuickLaunchpadPage();
     DashboardPage dashboardPage = new DashboardPage();
@@ -129,7 +129,7 @@ public class Login_StepDefs {
 
     @Then("I should see my username {string} on the upper right corner of the page.")
     public void iShouldSeeMyUsernameOnTheUpperRightCornerOfThePage(String username) {
-        wait.until(ExpectedConditions.visibilityOf(basePage.userOptions));
-        Assert.assertEquals(username, basePage.userOptions.getText());
+        wait.until(ExpectedConditions.visibilityOf(dashboardPage.userOptions));
+        Assert.assertEquals(username, dashboardPage.userOptions.getText());
     }
 }

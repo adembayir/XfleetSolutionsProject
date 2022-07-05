@@ -50,8 +50,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                299,
-                35,
+                7,
+                0,
                 0,
                 0,
                 0
@@ -93,7 +93,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 334) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 7) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -106,8 +106,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                34,
-                35
+                1,
+                0
             ],
             backgroundColor: [
                 "#00B000",
@@ -140,7 +140,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 69) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 1) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -153,8 +153,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                   6,
-                   2
+                   1,
+                   0
                ],
                backgroundColor: [
                 "#00B000",
@@ -187,7 +187,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 8) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 1) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -228,7 +228,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>04 Jul 2022, 12:32</td>
+      <td>05 Jul 2022, 19:46</td>
     </tr>
   </tbody>
 </table>
@@ -323,173 +323,54 @@ $(document).ready(function() {
 
   <tbody>
       <tr>
-        <td class="tagname"><a href="report-feature_2273106699.html">User should experience the 'Enter' key of the keyboard is working correctly on the login page.</a></td>
+        <td class="tagname"><a href="report-feature_1234466854.html">The user can log out and ends up on the login page.</a></td>
 
-        <td      class="passed"    >3</td>
+        <td      class="passed"    >7</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">3</td>
-
-        <td  class="passed"    >1</td>
-        <td >0</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="11765532400">11.765</td>
-        <td class="passed">Passed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_1_1190494771.html">User land on the &lsquo;Forgot Password&rsquo; page after clicking on the &quot;Forgot your password?&quot; link</a></td>
-
-        <td      class="passed"    >3</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">3</td>
+        <td class="total">7</td>
 
         <td  class="passed"    >1</td>
         <td >0</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="8245944600">8.245</td>
+        <td class="duration" data-value="19887360000">19.887</td>
         <td class="passed">Passed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_2_3942927191.html">&quot;Please fill out this field&quot; message should be displayed if the password or username is empty</a></td>
-
-        <td      class="passed"    >8</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">8</td>
-
-        <td  class="passed"    >2</td>
-        <td >0</td>
-        <td class="total">2</td>
-
-        <td class="duration" data-value="12202363100">12.202</td>
-        <td class="passed">Passed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_3_3279963693.html">&quot;Invalid username or password.&quot; should be displayed for invalid (valid username-invalid password and invalid username-valid password) credentials</a></td>
-
-        <td      class="passed"    >15</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">15</td>
-
-        <td  class="passed"    >3</td>
-        <td >0</td>
-        <td class="total">3</td>
-
-        <td class="duration" data-value="17132196400">17.132</td>
-        <td class="passed">Passed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_4_2279312456.html">As a user, I should be able to log in</a></td>
-
-        <td      class="passed"    >145</td>
-        <td      class="failed"    >5</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">150</td>
-
-        <td  class="passed"    >25</td>
-        <td  class="failed"    >5</td>
-        <td class="total">30</td>
-
-        <td class="duration" data-value="210014702700">3:30.014</td>
-        <td class="failed">Failed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_5_1220342516.html">User should see the password in bullet signs by default</a></td>
-
-        <td      class="passed"    >3</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">3</td>
-
-        <td  class="passed"    >1</td>
-        <td >0</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="8257912700">8.257</td>
-        <td class="passed">Passed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_6_1682838618.html">User can see &quot;Remember Me&quot; link exists and is clickable on the login page</a></td>
-
-        <td      class="passed"    >2</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">2</td>
-
-        <td  class="passed"    >1</td>
-        <td >0</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="8242954100">8.242</td>
-        <td class="passed">Passed</td>
-      </tr>
-      <tr>
-        <td class="tagname"><a href="report-feature_7_3348773816.html">All users should see their own usernames in the profile menu, after successful login</a></td>
-
-        <td      class="passed"    >120</td>
-        <td      class="failed"    >30</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">150</td>
-
-        <td >0</td>
-        <td  class="failed"    >30</td>
-        <td class="total">30</td>
-
-        <td class="duration" data-value="174721825600">2:54.721</td>
-        <td class="failed">Failed</td>
       </tr>
   </tbody>
 
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>299</td>
-      <td>35</td>
+      <td>7</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>334</td>
+      <td>0</td>
+      <td>7</td>
 
-      <td>34</td>
-      <td>35</td>
-      <td>69</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
 
-      <td class="duration">7:30.583</td>
-      <td>8</td>
+      <td class="duration">19.887</td>
+      <td>1</td>
     </tr>
     <tr>
       <td></td>
-      <td>89.52%</td>
-      <td>10.48%</td>
+      <td>100.00%</td>
+      <td>0.00%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td></td>
-      <td>49.28%</td>
-      <td>50.72%</td>
+      <td>100.00%</td>
+      <td>0.00%</td>
       <td></td>
       <td></td>
-      <td>75.00%</td>
+      <td>100.00%</td>
     </tr>
   </tfoot>
 </table>

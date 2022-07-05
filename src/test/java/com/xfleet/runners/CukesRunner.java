@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/xfleet/step_defs",
         dryRun = false,
-        tags = "@FLTAPS-1733"
+        tags = "@wip"
 )
 
 public class CukesRunner {

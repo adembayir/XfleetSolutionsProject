@@ -6,12 +6,18 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class BasePage {
+public abstract class BasePage {
     public BasePage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
     @FindBy(xpath = "(//a[@class='dropdown-toggle'])[1]")
     public WebElement userOptions;
+
+    @FindBy(xpath = "//a[.='Logout']")
+    public WebElement logOutButton;
+
+    @FindBy(xpath = "//body/div[4]")
+    public WebElement loaderMask;
 
 }
