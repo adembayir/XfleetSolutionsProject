@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Logout_StepDefs {
 
+    // AC - 1
     QuickLaunchpadPage quickLaunchpadPage = new QuickLaunchpadPage();
     LoginPage loginPage = new LoginPage();
     WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
@@ -29,4 +30,7 @@ public class Logout_StepDefs {
     public void i_should_land_on_login_page() {
         Assert.assertTrue(loginPage.loginButton.isDisplayed());
     }
+
+    // AC - 2
+
 }

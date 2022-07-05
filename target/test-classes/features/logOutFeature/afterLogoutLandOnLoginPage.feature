@@ -3,8 +3,8 @@
 
     Background:
       Given I am on the login page
-      And I enter valid username "storemanager51"
-      And I enter valid password "UserUser123"
+      And I enter valid username
+      And I enter valid password
       And I click log in button
 
     @wip

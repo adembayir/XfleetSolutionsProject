@@ -4,6 +4,7 @@ import com.xfleet.pages.*;
 import com.xfleet.utilities.BrowserUtils;
 import com.xfleet.utilities.ConfigurationReader;
 import com.xfleet.utilities.Driver;
+import com.xfleet.utilities.ExcelRead;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -131,5 +132,15 @@ public class Login_StepDefs {
     public void iShouldSeeMyUsernameOnTheUpperRightCornerOfThePage(String username) {
         wait.until(ExpectedConditions.visibilityOf(dashboardPage.userOptions));
         Assert.assertEquals(username, dashboardPage.userOptions.getText());
+    }
+
+    @And("I enter valid username")
+    public void iEnterValidUsername() {
+        loginPage.usernameInputBox.sendKeys(ExcelRead.getRandomValidUsername());
+    }
+
+    @And("I enter valid password")
+    public void iEnterValidPassword() {
+        loginPage.passwordInputBox.sendKeys(ConfigurationReader.getProperty("password"));
     }
 }

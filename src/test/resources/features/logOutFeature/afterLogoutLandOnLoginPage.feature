@@ -3,11 +3,11 @@
 
     Background:
       Given I am on the login page
-      And I enter valid username "storemanager51"
-      And I enter valid password "UserUser123"
+      And I enter valid username
+      And I enter valid password
       And I click log in button
 
-    @wip
+    @FLTAPS-1823
     Scenario:
       When I click username on the upper-right corner
       And I click log out button
