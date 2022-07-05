@@ -1,0 +1,94 @@
+-------------------------------------------------------------------------------
+Test set: All users should see their own usernames in the profile menu, after successful login
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 30, Errors: 0, Skipped: 0, Time elapsed: 200.689 s <<< FAILURE! - in All users should see their own usernames in the profile menu, after successful login
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #1  Time elapsed: 13.494 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[user1]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #2  Time elapsed: 6.702 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[user2]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #3  Time elapsed: 6.969 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[user3]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #4  Time elapsed: 6.708 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[user4]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #5  Time elapsed: 6.114 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[user5]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #6  Time elapsed: 6.066 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[user6]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #7  Time elapsed: 5.777 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[user7]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #8  Time elapsed: 6.189 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[user8]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #9  Time elapsed: 6.164 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[user9]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #10  Time elapsed: 6.23 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[user10]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #11  Time elapsed: 6.579 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[storemanager51]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #12  Time elapsed: 6.403 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[storemanager52]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #13  Time elapsed: 6.392 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[storemanager53]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #14  Time elapsed: 6.557 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[storemanager54]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #15  Time elapsed: 6.528 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[storemanager55]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #16  Time elapsed: 6.554 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[storemanager56]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #17  Time elapsed: 6.463 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[storemanager57]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #18  Time elapsed: 6.397 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[storemanager58]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #19  Time elapsed: 6.626 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[storemanager59]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #20  Time elapsed: 6.423 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[storemanager60]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #21  Time elapsed: 6.533 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[salesmanager101]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #22  Time elapsed: 6.264 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[salesmanager102]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #23  Time elapsed: 6.526 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[salesmanager103]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #24  Time elapsed: 6.708 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[salesmanager104]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #25  Time elapsed: 6.474 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[salesmanager105]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #26  Time elapsed: 6.589 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[salesmanager106]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #27  Time elapsed: 6.733 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[salesmanager107]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #28  Time elapsed: 6.562 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[salesmanager108]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #29  Time elapsed: 6.526 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[salesmanager109]> but was:<[John Doe]>
+
+All users should see their own usernames in the profile menu, after successful login.As a user, i should see my username in the profile menu, after successful login #30  Time elapsed: 6.436 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[salesmanager110]> but was:<[John Doe]>
+

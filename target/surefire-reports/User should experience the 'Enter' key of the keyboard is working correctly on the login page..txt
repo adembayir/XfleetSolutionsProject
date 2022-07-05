@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: User should experience the 'Enter' key of the keyboard is working correctly on the login page.
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.245 s - in User should experience the 'Enter' key of the keyboard is working correctly on the login page.
